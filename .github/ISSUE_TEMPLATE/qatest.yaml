@@ -1,0 +1,108 @@
+name: QA Build Test
+description: Used to test out various Anchor builds
+
+labels: ["anchor", "test"]
+body:
+  - type: markdown
+    attributes:
+      value: "# Build Test"
+  - type: dropdown
+    id: OS
+    attributes:
+      label: Platform
+      description: What platform are you running Anchor on?
+      options:
+        - Desktop
+        - iOS
+        - Android
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What version of Anchor are you using?
+      placeholder: ex. 0.40.0
+  - type: input
+    id: device-hardware
+    attributes:
+      label: Device
+      description: What device are you using?
+      placeholder: ex. iPhone 13 or Pixel 5
+  - type: input
+    id: device-osversion
+    attributes:
+      label: Device OS Version
+      description: What version of your device's OS are you using?
+  - type: dropdown
+    id: accountcreation
+    attributes:
+      label: Account Creation
+      options:
+        - Go
+        - No Go
+    validations:
+      required: true
+  - type: checkboxes
+    id: creation
+    attributes:
+      label: Creation
+      description: Did the account create successfully?
+      options:
+      - label: Yes
+      - label: No
+  - type: checkboxes
+    id: backup
+    attributes:
+      label: Backup
+      description: Did the backup process work successfully?
+      options:
+      - label: Yes
+      - label: No
+  - type: checkboxes
+    id: buttons
+    attributes:
+      label: Buttons
+      description: Did the web wallet and Bloks.io buttons work correctly?
+      options:
+      - label: Web Wallet
+      - label: Bloks.io
+  - type: dropdown
+    id: accountrecovery
+    attributes:
+      label: Account Recovery
+      options:
+        - Go
+        - No Go
+    validations:
+      required: true
+  - type: dropdown
+    id: accountimport
+    attributes:
+      label: Account Import
+      options:
+        - Go
+        - No Go
+    validations:
+      required: true
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes
+      description: Was there anything to note during your test?
+      render: shell
+    validations:
+      required: false
+  - type: textarea
+    attributes:
+      label: Anything else?
+      description: |
+        Links? References? Anything that will give us more context about the bug you're reporting!
+
+        Tip: You can attach images or log files by clicking this area to highlight it and then dragging files in.
+    validations:
+      required: false
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!

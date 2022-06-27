@@ -49,14 +49,15 @@ body:
       description: Did the account create successfully?
       options:
       - label: "Yes"
+      - label: "No"
   - type: checkboxes
     id: backup
     attributes:
       label: Backup
       description: Did the backup process work successfully?
       options:
-      - label: Yes
-      - label: No
+      - label: "Yes"
+      - label: "No"
   - type: checkboxes
     id: buttons
     attributes:

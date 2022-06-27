@@ -1,10 +1,6 @@
----
 name: QA Build Test
-about: Used to test out various Anchor builds
 title: "QA Test of build [version] - [DATE]"
 labels: ["anchor", "test"]
----
-
 body:
   - type: markdown
     attributes:

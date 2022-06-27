@@ -1,4 +1,5 @@
 name: QA Build Test
+about: Testing repository
 title: "QA Test of build [version] - [DATE]"
 labels: ["anchor", "test"]
 body:

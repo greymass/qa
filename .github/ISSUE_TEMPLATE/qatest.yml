@@ -48,8 +48,7 @@ body:
       label: Creation
       description: Did the account create successfully?
       options:
-      - label: Yes
-      - label: No
+      - label: "Yes"
   - type: checkboxes
     id: backup
     attributes:

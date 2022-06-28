@@ -55,8 +55,8 @@ body:
     attributes:
       label: AC Checks
       options:
-        - label: Creation
-        - label: Backup
+        - label: Account Created
+        - label: Backup Created
   - type: dropdown
     id: accountrecovery
     attributes:
@@ -72,7 +72,7 @@ body:
     attributes:
       label: AR Checks
       options:
-        - label: Scanned
+        - label: Certificate Scanned
         - label: Account Recoverd
   - type: dropdown
     id: accountimport
@@ -89,7 +89,7 @@ body:
     attributes:
       label: AI Checks
       options:
-        - label: Scanned
+        - label: Key Scanned
         - label: Account Imported
   - type: checkboxes
     id: functionality

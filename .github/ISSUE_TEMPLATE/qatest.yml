@@ -108,9 +108,9 @@ body:
         - label: Preferences
         - label: Export Key
   - type: textarea
-    id: One-off Tests
+    id: Oot
     attributes:
-      label: oot
+      label: Unique Tests
       description: Are there any specific items to test.  If so, please note them here.  If we need to test this regularly, please add it to the list above.
   - type: textarea
     attributes:

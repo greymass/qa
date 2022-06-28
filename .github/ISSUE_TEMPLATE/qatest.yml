@@ -70,7 +70,7 @@ body:
   - type: checkboxes
     id: archecks
     attributes:
-      labe: AR Checks
+      label: AR Checks
       options:
         - label: Scanned
         - label: Account Recoverd

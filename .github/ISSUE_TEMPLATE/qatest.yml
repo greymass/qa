@@ -53,8 +53,9 @@ body:
   - type: checkboxes
     id: creation
     attributes:
-      label: Creation
-      label: Backup
+      options:
+        - label: Creation
+        - label: Backup
   - type: dropdown
     id: accountrecovery
     attributes:
@@ -68,8 +69,9 @@ body:
   - type: checkboxes
     id: archecks
     attributes:
-      label: Scanned
-      label: Account Recoverd
+      options:
+        - label: Scanned
+        - label: Account Recoverd
   - type: dropdown
     id: accountimport
     attributes:
@@ -83,18 +85,19 @@ body:
   - type: checkboxes
     id: aichecks
     attributes:
-      label: Scanned
-      label: Account Imported
+      options:
+        - label: Scanned
+        - label: Account Imported
   - type: checkboxes
     id: functionality
     attributes:
       label: Functionality
       description: Did function correctly?
       options:
-      - label: Web Wallet button
-      - label: Bloks.io button
-      - label: Preferences
-      - label: Export Key
+        - label: Web Wallet button
+        - label: Bloks.io button
+        - label: Preferences
+        - label: Export Key
   - type: textarea
     id: notes
     attributes:

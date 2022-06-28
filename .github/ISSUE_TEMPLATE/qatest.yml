@@ -53,6 +53,7 @@ body:
   - type: checkboxes
     id: creation
     attributes:
+      label: AC Checks
       options:
         - label: Creation
         - label: Backup
@@ -69,6 +70,7 @@ body:
   - type: checkboxes
     id: archecks
     attributes:
+      labe: AR Checks
       options:
         - label: Scanned
         - label: Account Recoverd
@@ -85,6 +87,7 @@ body:
   - type: checkboxes
     id: aichecks
     attributes:
+      label: AI Checks
       options:
         - label: Scanned
         - label: Account Imported
@@ -92,7 +95,7 @@ body:
     id: functionality
     attributes:
       label: Functionality
-      description: Did function correctly?
+      description: Did the software function correctly?
       options:
         - label: Web Wallet button
         - label: Bloks.io button

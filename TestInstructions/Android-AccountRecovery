@@ -1,0 +1,10 @@
+These are the instructions to perform an Account Recovery using Anchor on Android.  This assumes you are starting from the main home screen.
+You will need a valid Owner Key Certificate (OKC) to complete this process.
+
+1. Select "Add Account"
+2. Select "Recover Account"
+3. Scan QR Code from OKC (screen advances automatically)
+4. Enter the 6 words from your OKC (screen advances automatically)
+5. Select "Add New Key for this Device"
+6. Select "Recover Account"
+7. Select "Done"

@@ -1,0 +1,9 @@
+These are the instructions to perform an Account Importy using Anchor on Android.  This assumes you are starting from the main home screen.
+You will need a private key to complete this process.
+
+1. Select "Add Account"
+2. Select "Import Account"
+3. Enter the private key (screen advances automatically)
+4. Select the account name
+6. Select "Import Account"
+7. Select "Done"

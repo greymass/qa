@@ -1,0 +1,7 @@
+These are the instructions to perform an Account Import using Anchor on Desktop.  This assumes you are starting from the main home screen.
+You will need a private key to complete this process.
+
+1. Select "Add Account"
+2. Select "Import Private Key"
+3. Enter the private key, verify account name, and select "Import Accounts"
+4. Select "Authorize"

@@ -1,0 +1,28 @@
+These are the instructions to perform an Account Creation using Anchor on iOS.  This assumes you are starting from the main home screen.
+This guide assumes you've selected "Enable Testnets" from the Preferences screen
+
+Account Creation
+1. Select "Add Account"
+2. Select "Create Account"
+3. Select Blockchain (Jungle)
+4. Enter preferred account name (random)
+5. Select biometrics options and "Create Account"
+
+OKC Test (From "Account Created" screen)
+6. Select "Backup Account"
+7. Select "Print"
+8. Select "Share" and save it, then select "Continue"
+9. Record the 6 words
+10. Verify the 6 words
+11. Select "Confirm"
+12. Select "Done"
+
+Validation (From home screen)
+13. Select "Accounts"
+14. Select created account name
+15. Select "Open in Web Wallet"
+16. In opened browser window, select "Launch Anchor"
+17. Slide right to sign transaction
+18. Go back to browser window and verify info.
+19. Return to your created account and select "View on Block Explorer"
+20. Verify account info on Bloks.io

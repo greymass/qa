@@ -1,0 +1,10 @@
+These are the instructions to perform an Account Creation using Anchor on Desktop.  This assumes you are starting from the main home screen.
+This guide assumes you have Testnets enabled.
+
+1. Select "Manage Wallets"
+2. Select "Import Accounts"
+3. Select "Import from key certificate"
+4. Scan QR Code from OKC (screen advances automatically)
+5. Enter the 6 words from your OKC (screen advances automatically)
+6. Select "Add New Key for this Device"
+7. Select "Authorize"
